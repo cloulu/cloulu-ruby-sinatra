@@ -1,0 +1,9 @@
+---
+applications:
+- name: ruby-sinatra-test
+  framework: sinatra
+  runtime: ruby193
+  memory: 128M
+  instances: 1
+  url: ruby-sinatra-test.${target-base}
+  path: .
